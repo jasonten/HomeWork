@@ -23,23 +23,27 @@ namespace Calculator
 
         public List<int> Calculate1()
         {
-            return Calculation_results(3, "0");
-        }
-
-        public List<int> Calculate2()
-        {
-            return Calculation_results(4, "1");
-        }
-
-        public List<int> Calculation_results(int GCount, string DType)
-        {
-            HomeWork hwc = new HomeWork();
             List<HomeWork> lhwc = new List<HomeWork>();
-            List<int> strAns = new List<int>();
             for (int a = 1; a <= 11; a++)
             {
                 lhwc.Add(new HomeWork() { Id = a, Cost = a, Revenue = 10 + a, SellPrice = 20 + a });
             }
+            return Calculation_results(3, "0", lhwc);
+        }
+
+        public List<int> Calculate2()
+        {
+            List<HomeWork> lhwc = new List<HomeWork>();
+            for (int a = 1; a <= 11; a++)
+            {
+                lhwc.Add(new HomeWork() { Id = a, Cost = a, Revenue = 10 + a, SellPrice = 20 + a });
+            }
+            return Calculation_results(4, "1", lhwc);
+        }
+
+        public List<int> Calculation_results(int GCount, string DType, List<HomeWork> lhwc)
+        {
+            List<int> strAns = new List<int>();
 
             //GCount 可以是3筆一組、4筆一組、甚至是任意決定幾筆一組
             int txtCount = GCount;
@@ -116,7 +120,7 @@ namespace Calculator
         string GetType(string DdlType);
     }
 
-    internal class HomeWork
+    public class HomeWork
     {
         public int Id { get; set; }
         public int Cost { get; set; }

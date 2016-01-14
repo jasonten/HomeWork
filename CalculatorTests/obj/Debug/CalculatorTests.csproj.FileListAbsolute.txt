@@ -12,3 +12,10 @@ C:\工作相關資料\lab1-CalculatorSample\CalculatorTests\bin\Debug\Calculator
 C:\工作相關資料\lab1-CalculatorSample\CalculatorTests\obj\Debug\CalculatorTests.csprojResolveAssemblyReference.cache
 C:\工作相關資料\lab1-CalculatorSample\CalculatorTests\obj\Debug\CalculatorTests.dll
 C:\工作相關資料\lab1-CalculatorSample\CalculatorTests\obj\Debug\CalculatorTests.pdb
+C:\工作相關資料\HomeWork\CalculatorTests\bin\Debug\CalculatorTests.dll
+C:\工作相關資料\HomeWork\CalculatorTests\bin\Debug\CalculatorTests.pdb
+C:\工作相關資料\HomeWork\CalculatorTests\bin\Debug\Calculator.dll
+C:\工作相關資料\HomeWork\CalculatorTests\bin\Debug\Calculator.pdb
+C:\工作相關資料\HomeWork\CalculatorTests\obj\Debug\CalculatorTests.csprojResolveAssemblyReference.cache
+C:\工作相關資料\HomeWork\CalculatorTests\obj\Debug\CalculatorTests.dll
+C:\工作相關資料\HomeWork\CalculatorTests\obj\Debug\CalculatorTests.pdb
